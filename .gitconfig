@@ -1,5 +1,8 @@
 [alias]
-	hist = log --pretty=format:\"%h %ad | %s [%an]\" --graph --date=short
-	ci = commit
-	co = checkout
+    hist = log --pretty=format:\"%h %ad | %s [%an]\" --graph --date=short
+    ci = commit
+    co = checkout
     st - status
+[core]
+    autocrlf=true
+    safecrlf=false
