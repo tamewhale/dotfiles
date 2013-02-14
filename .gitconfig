@@ -1,6 +1,6 @@
 [alias]
     hist = log --pretty=format:\"%h %ad | %s [%an]\" --graph --date=short
-    ci = commit
+    ci = commit -a -m
     co = checkout
     st - status
 [core]
