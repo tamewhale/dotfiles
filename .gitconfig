@@ -1,5 +1,6 @@
 [alias]
     hist = log --pretty=format:\"%h %ad | %s [%an]\" --graph --date=short
+    today = log --pretty=format:\"%h %ad | %s [%an]\" --graph --date=short --since="0am"
     ci = commit -a -m
     co = checkout
     st - status
