@@ -1,6 +1,6 @@
 [alias]
     hist = log --pretty=format:\"%h %ad | %s [%an]\" --graph --date=short
-    today = !git hist --since="0am"
+    today = !git hist --since="12am"
     ci = commit -a -m
     co = checkout
     st = status
